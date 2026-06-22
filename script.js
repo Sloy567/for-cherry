@@ -15,6 +15,7 @@ const noBtn = document.getElementById("noBtn");
 const yesAgainBtn = document.getElementById("yesAgainBtn");
 const dateBtn = document.getElementById("dateBtn");
 const finalText = document.getElementById("finalText");
+const instagramBtn = document.getElementById("instagramBtn");
 
 
 function showScreen(screenId) {
@@ -42,6 +43,13 @@ dateBtn.addEventListener("click", function() {
     track("🍒 Cherry clicked SOUNDS FAIR");
     finalText.textContent = "Come say hi on Instagram";
     showScreen("screenFinal");
+});
+instagramBtn.addEventListener("click", function() {
+    track("🍒 Cherry clicked INSTAGRAM");
+
+    setTimeout(function() {
+        window.open("https://www.instagram.com/sloy.567/", "_blank");
+    }, 300);
 });
 
 noBtn.addEventListener("mouseenter", moveNoButton);

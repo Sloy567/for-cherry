@@ -109,7 +109,8 @@ button:active {
 #yesBtn,
 #yesAgainBtn,
 #dateBtn,
-#restartBtn {
+#restartBtn,
+#instagramBtn {
     background: linear-gradient(135deg, #f66ca3, #e94b86);
     color: white;
     box-shadow: 0 8px 18px rgba(233, 75, 134, 0.25);
